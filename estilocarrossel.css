@@ -1,0 +1,14 @@
+main{
+background-color: white;
+}
+
+.container{
+padding: 0;
+width: 100%;
+}
+
+.carousel-inner{
+display: flex;
+align-items: center;
+height: 100vh;
+}

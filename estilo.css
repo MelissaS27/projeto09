@@ -1,0 +1,109 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: hsl(0, 0%, 13%);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.header-h1{
+ color: #ffffff;
+ font-family: 'Courgette', cursive;
+}
+
+.header_logo {
+    width: 5em;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+}
+
+.header-nav {
+    display: block;
+}
+
+.header-nav ul {
+    margin-right: 0.5em;
+}
+
+.header-nav li {
+    display: inline-block;
+}
+
+.header-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    border-radius: 0.3em;
+}
+
+.header-nav a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.foto {
+    width: 100%;
+}
+
+.fundo-main {
+    background-image: url(Imagens/hpeyes.webp);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeria a {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    background-color: #00000065;
+    padding: 0.5em 0.5em;
+    font-size: 1.5em;
+    border-radius: 0.5em;
+    letter-spacing: 0.1em;
+    font-family: 'Courgette', cursive;
+}
+
+.galeria a:hover {
+    background-color: rgba(0, 0, 0, 0.61);
+    color: #ffffffc4;
+}
+
+footer {
+    background-color: hsl(0, 0%, 13%);
+    padding: 1em;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.tamanho {
+    width: 2em;
+    margin-bottom: 1em;
+}
+
+.texto {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #ffffff;
+    margin-bottom: 0;
+}
